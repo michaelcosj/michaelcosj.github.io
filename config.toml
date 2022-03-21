@@ -1,0 +1,68 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Michael's notes"
+copyright = "michaelcosj"
+theme = 'cactus'
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "native"
+    tabWidth = 4
+
+[params]
+  colortheme = "gruv-dark"
+  description = "Hi! I'm an aspiring software engineer currently studying computer science in the university. I love to cook, write, read and code, and I mostly spend my free time doing one or the other. This is sort of my digital notebook where I write about stuff I find interesting or projects I'm building. Enjoy!"
+  rss = true
+  tocInline = true
+  mainSection = "notes"
+  mainSectionTitle = "Recent Notes"
+  showProjectsList = false
+  projectsUrl = "https://github.com/michaelcosj"
+
+  [params.comments]
+      enabled = true
+      engine = "utterances"
+    [params.comments.utterances]
+      repo = "<github_username>/<github_reponame>"
+      label = "[💬]-comments" # you can use however you want to label your name in your repo's issues
+      theme = "gruvbox-dark"
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/michaelcosj"
+
+[[params.social]]
+  name = "email"
+  link = "michaelcosj@protonmail.com"
+
