@@ -54,7 +54,7 @@ theme = 'cactus'
       enabled = true
       engine = "utterances"
     [params.comments.utterances]
-      repo = "<github_username>/<github_reponame>"
+      repo = "michaelcosj/michaelcosj.github.io"
       label = "[💬]-comments" # you can use however you want to label your name in your repo's issues
       theme = "gruvbox-dark"
 
