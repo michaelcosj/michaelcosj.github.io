@@ -51,8 +51,8 @@ theme = 'cactus'
   projectsUrl = "https://github.com/michaelcosj"
 
   [params.comments]
-      enabled = true
-      engine = "cactus_comments"
+      enabled = false
+      engine = "utterances"
     [params.comments.utterances]
       repo = "michaelcosj/michaelcosj.github.io"
       label = "[💬]-comments"
