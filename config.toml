@@ -52,11 +52,15 @@ theme = 'cactus'
 
   [params.comments]
       enabled = true
-      engine = "utterances"
+      engine = "cactus_comments"
     [params.comments.utterances]
       repo = "michaelcosj/michaelcosj.github.io"
-      label = "[💬]-comments" # you can use however you want to label your name in your repo's issues
+      label = "[💬]-comments"
       theme = "gruvbox-dark"
+    [params.comments.cactuscomments]
+      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+      #serverName = "" # Defaults to cactus.chat
 
 [[params.social]]
   name = "github"
