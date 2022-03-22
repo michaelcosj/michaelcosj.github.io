@@ -42,13 +42,15 @@ theme = 'cactus'
 
 [params]
   colortheme = "gruv-dark"
-  description = "Hi! I'm an aspiring software engineer currently studying computer science in the university. I love to cook, write, read and code, and I mostly spend my free time doing one or the other. This is sort of my digital notebook where I write about stuff I find interesting or projects I'm building. Enjoy!"
+  description = "Hey! I'm a computer science undergraduate that loves to cook, write, read and code and I mostly spend my free time doing one or the other. This is sort of my digital notebook where I write about stuff I find interesting or projects I'm building. Enjoy!"
   rss = true
-  tocInline = true
+  tocInline = false
   mainSection = "notes"
   mainSectionTitle = "Recent Notes"
   showProjectsList = false
   projectsUrl = "https://github.com/michaelcosj"
+  show_updated = true # default
+  showReadTime = true # default
 
   [params.comments]
       enabled = false
