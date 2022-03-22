@@ -53,7 +53,7 @@ theme = 'cactus'
   showReadTime = true # default
 
   [params.comments]
-      enabled = false
+      enabled = true
       engine = "utterances"
     [params.comments.utterances]
       repo = "michaelcosj/michaelcosj.github.io"
