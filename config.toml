@@ -42,7 +42,7 @@ theme = 'cactus'
 
 [params]
   colortheme = "gruv-dark"
-  description = "I write code and stuff. Enjoy!"
+  description = "I write code and stuff."
   rss = true
   tocInline = false
   mainSection = "notes"
