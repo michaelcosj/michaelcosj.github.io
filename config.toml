@@ -42,7 +42,7 @@ theme = 'cactus'
 
 [params]
   colortheme = "gruv-dark"
-  description = "Hey! I'm a computer science undergraduate that loves to cook, write, read and code and I mostly spend my free time doing one or the other. This is sort of my digital notebook where I write about stuff I find interesting or projects I'm building. Enjoy!"
+  description = "I write code and stuff. Enjoy!"
   rss = true
   tocInline = false
   mainSection = "notes"
@@ -67,6 +67,10 @@ theme = 'cactus'
 [[params.social]]
   name = "github"
   link = "https://github.com/michaelcosj"
+
+[[params.social]]
+  name = "twitter"
+  link = "https://twitter.com/michaelcosj"
 
 [[params.social]]
   name = "email"
