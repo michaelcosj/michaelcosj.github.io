@@ -41,7 +41,7 @@ theme = 'cactus'
     tabWidth = 4
 
 [params]
-  colortheme = "gruv-dark"
+  colortheme = "light"
   description = "I write code and stuff."
   rss = true
   tocInline = false
