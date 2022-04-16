@@ -16,7 +16,7 @@ theme = 'cactus'
 
 [[menu.main]]
   name = "Stuff"
-  url = "/other"
+  url = "/stuff"
   weight = 3
 
 [[menu.main]]
